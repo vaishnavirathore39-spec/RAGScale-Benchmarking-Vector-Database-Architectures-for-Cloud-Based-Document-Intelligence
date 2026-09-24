@@ -1,2 +1,3 @@
 data/*.json
 rag_pipeline/*.json
+arxiv.zip
