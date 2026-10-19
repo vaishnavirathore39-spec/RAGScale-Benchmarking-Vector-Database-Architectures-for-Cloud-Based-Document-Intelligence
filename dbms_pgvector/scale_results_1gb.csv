@@ -1,0 +1,26 @@
+tier,config,setting,build_s,avg_ms,p95_ms,recall_at_10
+papers_1k,No index (exact),-,0.0,2.81,3.12,1.0
+papers_1k,HNSW m=16 ef_c=64,ef_search=40,0.3,0.77,0.98,1.0
+papers_1k,HNSW m=16 ef_c=64,ef_search=100,0.3,0.88,1.13,1.0
+papers_1k,IVFFlat lists=31,probes=10,0.1,0.8,1.11,0.974
+papers_1k,IVFFlat lists=31,probes=30,0.1,0.89,1.12,1.0
+papers_10k,No index (exact),-,0.0,127.99,138.09,1.0
+papers_10k,HNSW m=16 ef_c=64,ef_search=40,5.3,3.07,4.65,1.0
+papers_10k,HNSW m=16 ef_c=64,ef_search=100,5.3,5.14,7.29,1.0
+papers_10k,IVFFlat lists=100,probes=10,7.8,3.01,4.45,0.902
+papers_10k,IVFFlat lists=100,probes=30,7.8,6.78,10.17,0.98
+papers_20k,No index (exact),-,0.0,252.08,267.87,1.0
+papers_20k,HNSW m=16 ef_c=64,ef_search=40,10.4,1.93,3.71,0.998
+papers_20k,HNSW m=16 ef_c=64,ef_search=100,10.4,3.26,5.87,1.0
+papers_20k,IVFFlat lists=141,probes=10,8.3,3.02,5.35,0.948
+papers_20k,IVFFlat lists=141,probes=30,8.3,7.81,11.11,0.996
+papers_50k,No index (exact),-,0.0,628.5,657.54,1.0
+papers_50k,HNSW m=16 ef_c=64,ef_search=40,42.6,2.21,4.09,0.994
+papers_50k,HNSW m=16 ef_c=64,ef_search=100,42.6,3.37,6.62,0.996
+papers_50k,IVFFlat lists=223,probes=10,13.6,3.9,7.77,0.908
+papers_50k,IVFFlat lists=223,probes=30,13.6,11.94,16.81,0.986
+papers_100k,No index (exact),-,0.0,352.66,402.45,1.0
+papers_100k,HNSW m=16 ef_c=64,ef_search=40,102.5,2.66,4.75,0.994
+papers_100k,HNSW m=16 ef_c=64,ef_search=100,102.5,3.49,6.96,0.996
+papers_100k,IVFFlat lists=316,probes=10,27.9,5.39,9.32,0.93
+papers_100k,IVFFlat lists=316,probes=30,27.9,19.94,27.4,0.984

@@ -8,7 +8,7 @@ import time
 import psycopg2
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUT_CSV = os.path.join(SCRIPT_DIR, "scale_results_median.csv")
+OUT_CSV = os.path.join(SCRIPT_DIR, "scale_results_1gb.csv")
 
 TIERS = [("papers_1k", 1000), ("papers_10k", 10000), ("papers_20k", 20000),
          ("papers_50k", 50000), ("papers_100k", 100000)]
