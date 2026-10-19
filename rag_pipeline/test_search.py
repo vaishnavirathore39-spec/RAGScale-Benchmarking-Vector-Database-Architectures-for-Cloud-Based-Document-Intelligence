@@ -1,10 +1,11 @@
+import getpass
 import psycopg2
 from sentence_transformers import SentenceTransformer
 
 DB_PARAMS = {
     "dbname": "postgres",
-    "user": "postgres",
-    "password": "Rit123&&",
+    "user": "postgres",   
+ "password": getpass.getpass("Postgres password: "),
     "host": "localhost",
     "port": "5432"
 }

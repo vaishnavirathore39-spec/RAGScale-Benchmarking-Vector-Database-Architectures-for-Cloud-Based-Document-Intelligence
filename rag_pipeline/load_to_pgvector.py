@@ -4,7 +4,7 @@ import psycopg2
 DB_PARAMS = {
     "dbname": "postgres",
     "user": "postgres",
-    "password": "Rit123&&",   # replace with your actual postgres password
+        "password": getpass.getpass("Postgres password: "),
     "host": "localhost",
     "port": "5432"
 }
