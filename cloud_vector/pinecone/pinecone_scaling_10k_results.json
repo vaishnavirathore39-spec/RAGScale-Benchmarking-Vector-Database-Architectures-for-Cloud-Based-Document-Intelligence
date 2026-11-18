@@ -1,6 +1,6 @@
 {
   "database": "Pinecone",
-  "experiment": "1K scaling",
+  "experiment": "10K scaling",
   "index": "ragscale-arxiv",
   "namespace": "scale-10k",
   "dataset_size": 10000,

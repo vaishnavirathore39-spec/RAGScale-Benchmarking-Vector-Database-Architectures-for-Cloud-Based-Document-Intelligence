@@ -1,0 +1,1 @@
+RAGScale is a vector database benchmarking project. It evaluates PostgreSQL pgvector and Pinecone using latency, recall, and scalability measurements.
