@@ -1,0 +1,11 @@
+{
+  "database": "Pinecone",
+  "index": "ragscale-arxiv",
+  "namespace": "scale-10k",
+  "target_records": 10000,
+  "submitted_records": 10000,
+  "verified_records": 10000,
+  "batch_size": 25,
+  "total_batches": 400,
+  "dimensions": 384
+}

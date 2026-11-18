@@ -1,0 +1,199 @@
+{
+  "database": "Pinecone",
+  "experiment": "1K scaling",
+  "index": "ragscale-arxiv",
+  "namespace": "scale-1k",
+  "dataset_size": 1000,
+  "dimensions": 384,
+  "num_queries": 30,
+  "top_k": 5,
+  "average_latency_ms": 350.99394333325716,
+  "median_latency_ms": 305.5485500008217,
+  "p95_latency_ms": 603.5738000064157,
+  "minimum_latency_ms": 260.9093000064604,
+  "maximum_latency_ms": 1113.916699992842,
+  "average_recall_at_5_percent": 99.33333333333333,
+  "individual_results": [
+    {
+      "query_id": "0704.0047",
+      "latency_ms": 413.8639000011608,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.0050",
+      "latency_ms": 385.23020000138786,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.0304",
+      "latency_ms": 393.5448000120232,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.0671",
+      "latency_ms": 301.2602999951923,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.0954",
+      "latency_ms": 309.8368000064511,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.0985",
+      "latency_ms": 334.5523000025423,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1020",
+      "latency_ms": 266.90460000827443,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1028",
+      "latency_ms": 265.56479999271687,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1274",
+      "latency_ms": 265.4344999900786,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1394",
+      "latency_ms": 297.8803000005428,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1409",
+      "latency_ms": 260.9093000064604,
+      "recall_at_5": 0.8,
+      "matching_results": 4
+    },
+    {
+      "query_id": "0704.1675",
+      "latency_ms": 270.1962999999523,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1676",
+      "latency_ms": 337.15639999718405,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.1783",
+      "latency_ms": 379.3955000001006,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.2010",
+      "latency_ms": 328.82080000126734,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.2083",
+      "latency_ms": 298.43629999959376,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.2092",
+      "latency_ms": 272.61770000040997,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.2201",
+      "latency_ms": 321.244899998419,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.2644",
+      "latency_ms": 299.39179999928456,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.2668",
+      "latency_ms": 265.6633000005968,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3157",
+      "latency_ms": 1113.916699992842,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3359",
+      "latency_ms": 382.7272000053199,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3395",
+      "latency_ms": 276.56820000265725,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3433",
+      "latency_ms": 338.6348999920301,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3453",
+      "latency_ms": 344.4837999995798,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3515",
+      "latency_ms": 324.8913999996148,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3662",
+      "latency_ms": 603.5738000064157,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3665",
+      "latency_ms": 289.19959999620914,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3708",
+      "latency_ms": 294.19299999426585,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    },
+    {
+      "query_id": "0704.3886",
+      "latency_ms": 293.72489999514073,
+      "recall_at_5": 1.0,
+      "matching_results": 5
+    }
+  ],
+  "tested_at": "2026-11-18T14:52:28.471066+00:00"
+}
